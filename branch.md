@@ -64,6 +64,7 @@ push.default
    + (use "git add/rm <file>..." to update what will be committed)
    + (use "git checkout -- <file>..." to discard changes in working directory)
 <<<<<<< HEAD
+<<<<<<< HEAD
 + git reflog  命令查看你的历史变更记录
 + git reset --hard HEAD@{n}    （注意：n是你要回退到的引用位置）
 + git reset --hard <COMMIT_ID>
@@ -74,12 +75,20 @@ push.default
 + git log --oneline -4
 =======
 + + git reflog  命令查看你的历史变更记录
+=======
++ git reflog  命令查看你的历史变更记录
+>>>>>>> d8bb486... <docs>我要修改commit记录哦
 + git reset --hard HEAD@{n}    （注意：n是你要回退到的引用位置）
 + git reset --hard <COMMIT_ID>
 + git reset --hard HEAD^         回退到上个版本
-+ git reset --hard HEAD~3       回退到前3次提交之前，以此类推，回退到n次提交之前
+
++ git reset --hard HEAD~3   回退到前3次提交之前，以此类推，回退到n次提交之前
 + 
+<<<<<<< HEAD
 >>>>>>> 93b2c42... hhh
+=======
++ git log --oneline -4
+>>>>>>> d8bb486... <docs>我要修改commit记录哦
 
 + git stash
 + git stash list
