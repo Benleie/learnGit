@@ -12,7 +12,7 @@
 + git branch -d dev  删除dev分支，如果在分支中有一些未merge的提交，那么会删除分支失败，此时可以使用 git branch -D dev：强制删除dev分支，
 + git branch -vv  可以查看本地分支对应的远程分支
 + git branch -m oldName newName 给分支重命名
-
++ 
 + git branch [branch]    新建
 + git checkout -b [branch] 新建并切换
 + git checkout [branch]    切换分支
@@ -63,6 +63,7 @@ push.default
 + Changes not staged for commit:
    + (use "git add/rm <file>..." to update what will be committed)
    + (use "git checkout -- <file>..." to discard changes in working directory)
+
 + git reflog  命令查看你的历史变更记录
 + git reset --hard HEAD@{n}    （注意：n是你要回退到的引用位置）
 + git reset --hard <COMMIT_ID>
@@ -70,6 +71,16 @@ push.default
 
 + git reset --hard HEAD~3   回退到前3次提交之前，以此类推，回退到n次提交之前
 + 
++ git log --oneline -4
+
++ git reflog  命令查看你的历史变更记录
++ git reset --hard HEAD@{n}    （注意：n是你要回退到的引用位置）
++ git reset --hard <COMMIT_ID>
++ git reset --hard HEAD^         回退到上个版本
+
++ git reset --hard HEAD~3   回退到前3次提交之前，以此类推，回退到n次提交之前
++ 
+
 + git log --oneline -4
 
 + git stash
