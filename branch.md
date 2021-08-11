@@ -51,7 +51,9 @@ push.default
 
 
 
-
+## rebase
++ `git rebase -i <commit>` 从某个commit开始，对它的所有子commit进行rebase
+   + squash 将多个commit合并成一个
 
 
 
