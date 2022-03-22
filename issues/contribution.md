@@ -5,3 +5,5 @@
 切换user.name
 
 ssh_config
+
+删除邮箱继续测试
