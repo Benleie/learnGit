@@ -9,3 +9,6 @@ ssh_config
 删除邮箱继续测试
 
 修改邮箱名称
+
++ 修改已提交commit的邮箱
+    + https://zhuanlan.zhihu.com/p/65561851
