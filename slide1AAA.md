@@ -17,3 +17,4 @@ git checkout ## Updated 1 path from the index
 
 ## default remote and branch
 vscode pull and fetch
+Source-Control Button: refresh
