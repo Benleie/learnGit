@@ -15,3 +15,6 @@ git checkout ## Updated 1 path from the index
 5.9 改动
 继续提交
 
+## default remote and branch
+vscode pull and fetch
+Source-Control Button: refresh
